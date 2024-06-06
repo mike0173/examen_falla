@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    height: 35px;
+    color: #c262af;
+    text-align: center;
+    font-size: 40px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box {
+    height: 25rem;
+    width: 20rem;
+    padding: 1rem;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 .1rem 1rem #514c4c;
+    margin: 2rem;
+}
+.nose {
+    margin-top: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #c262af;
+    padding-top: 15%;
+}
